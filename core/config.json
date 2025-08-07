@@ -1,0 +1,30 @@
+# core/config.json
+{
+  "bitcoin_rpc": {
+    "host": "127.0.0.1",
+    "port": 8332,
+    "user": "bitbombe",
+    "password": "Albi101!!DeF3nWycke?",
+    "wallet": "bitbombe"
+  },
+  "stratum": {
+    "header_pool_size": 1000,
+    "dispatch_interval": 1,
+    "score_weights": {
+      "entropy": 0.7,
+      "hash": 0.3
+    }
+  },
+  "asic_serial": {
+    "port": "COM3",
+    "baudrate": 115200
+  },
+  "discord": {
+    "webhook_url": "https://discord.com/api/webhooks/1401850538034991106/p4be0snkDp38EPjnvaJjBLmn9CH5FdssupWBaiqbkqbdkCQuuAGP1c5vFAY-IeSRKdML"
+  },
+  "logging": {
+    "update_interval": 20
+  },
+  "payout_address": "a90231204e5fbce223ea4c05aa20fe409db1ccad",
+  "stratum_port": 3333
+}
